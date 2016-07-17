@@ -1,12 +1,12 @@
 {
-  "name": "salsa-beats",
+  "name": "jadeless",
   "authors": [
     "Ernest Iliiasov <me@ernest.asia>"
   ],
-  "description": "Salsa Beats for Web",
+  "description": "Starting point for rapid front-end web things.",
   "main": "src/index.pug",
   "keywords": [
-    "private"
+    "boilerplate"
   ],
   "license": "MIT",
   "homepage": "http://ernest.asia/",

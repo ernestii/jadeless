@@ -6,11 +6,8 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     meta:
-      version: '0.1.0',
-      banner: '/*!\n * Salsa Beats - v<%= meta.version %> - ' +
-        '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-        ' * http://sapphiriq.ru/\n' +
-        ' * Copyright (c) <%= grunt.template.today("yyyy") %>\n */\n'
+      version: '0.0.1',
+      banner: '/*!\n * Built on <%= grunt.template.today("yyyy-mm-dd") %>\n */\n'
 
     clean:
       build: ['build']

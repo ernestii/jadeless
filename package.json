@@ -1,14 +1,17 @@
 {
-  "name": "salsa-beats",
-  "version": "0.0.0",
-  "description": "Salsa Beats for Web",
+  "name": "jadeless",
+  "version": "0.0.1",
+  "description": "Starting point for rapid front-end web things.",
   "main": "Gruntfile.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "Ernest Iliiasov",
-  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ernestii/jadeless"
+  },
+  "author": "Ernest Iliiasov <me@ernest.asia>",
+  "license": "MIT",
   "devDependencies": {
     "connect": "~3.4.0",
     "grunt": "^1.0.1",
