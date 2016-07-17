@@ -1,0 +1,24 @@
+{
+  "name": "salsabeats",
+  "authors": [
+    "Ernest Iliiasov <me@ernest.asia>"
+  ],
+  "description": "Salsa Beats for Web",
+  "main": "index.pug",
+  "keywords": [
+    "private"
+  ],
+  "license": "MIT",
+  "homepage": "http://ernest.asia/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Salsa Beats",
+  "version": "0.0.0",
+  "description": "Salsa Beats for Web",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Ernest Iliiasov",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-nodeunit": "~0.1.0",
+    "grunt-contrib-less": "~0.3.2",
+    "grunt-contrib-coffee": "~0.3.2",
+    "grunt-contrib-pug": "~1.0.0",
+    "grunt-contrib-uglify": "~0.1.0",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-concat": "~0.1.1",
+    "grunt-contrib-copy": "~0.3.2",
+    "grunt-contrib-clean": "~0.4.0a",
+    "connect": "~2.7.1"
+  }
+}
