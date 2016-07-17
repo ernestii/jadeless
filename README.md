@@ -5,11 +5,10 @@ Built HTML and CSS files are located in build/ directory. You can build it youse
 ### Install
 * node.js
 * npm
-* bower
-* grunt-cli
 
 ## Manual building
 ```
+# install dependencies listed in package.json
 npm install
 
 # install dependencies listed in bower.json
