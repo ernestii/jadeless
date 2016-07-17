@@ -1,5 +1,5 @@
 {
-  "name": "Salsa-Beats",
+  "name": "salsa-beats",
   "version": "0.0.0",
   "description": "Salsa Beats for Web",
   "main": "Gruntfile.coffee",

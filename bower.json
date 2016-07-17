@@ -1,10 +1,10 @@
 {
-  "name": "salsabeats",
+  "name": "salsa-beats",
   "authors": [
     "Ernest Iliiasov <me@ernest.asia>"
   ],
   "description": "Salsa Beats for Web",
-  "main": "index.pug",
+  "main": "src/index.pug",
   "keywords": [
     "private"
   ],
@@ -16,7 +16,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "build"
   ],
   "dependencies": {
     "jquery": "^3.1.0"
