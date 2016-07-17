@@ -30,9 +30,9 @@ module.exports = (grunt) ->
       build:
         options:
           pretty: true
-        files: grunt.file.expandMapping(["src/pug/*.pug"], "build",
+        files: grunt.file.expandMapping(["src/*.pug"], "build",
           rename: (destBase, destPath) ->
-            destBase + destPath.replace(/src\/pug/, '').replace(/\.pug/, ".html")
+            destBase + destPath.replace(/src/, '').replace(/\.pug/, ".html")
         )
 
 
@@ -78,7 +78,7 @@ module.exports = (grunt) ->
 
       pug:
         files: ['src/pug/**/*.pug']
-        tasks: 'pug:build'
+        tasks: 'jade:build'
 
       js:
         files: ['src/vendor/js/**/*.js']
