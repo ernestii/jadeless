@@ -26,7 +26,7 @@ Edit `package.json`, `Gruntfile.coffee`, `bower.json` to match your project name
 ### Installing dependencies
 ```
 # install dependencies listed in package.json
-npm install
+$ npm install
 
 # install dependencies listed in bower.json
 $ bower install
