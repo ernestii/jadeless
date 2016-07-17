@@ -15,5 +15,5 @@ npm install
 $ bower install
 
 # build project
-$ grunt
+$ rm -rf build && grunt
 ```
