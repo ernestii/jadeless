@@ -58,6 +58,12 @@ module.exports = (grunt) ->
         files:
           "release/css/style.css": "src/less/style.less"
 
+    bower:
+      build:
+        dest: "build/js/plugins/"
+        options:
+          expand: true
+
 
 # lint: {
 #   files: ['grunt.js', 'src/**/*.js', 'test/**/*.js']
@@ -136,8 +142,10 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-clean'
 
+  grunt.loadNpmTasks 'grunt-bower'
+
   # Default task.
-  grunt.registerTask 'default', ['copy:build', 'pug', 'coffee', 'less:build']
+  grunt.registerTask 'default', ['copy:build', 'pug', 'coffee', 'less:build', 'bower']
   grunt.registerTask 'build',   'default'
 
   grunt.registerTask 'release', ['build', 'copy:release', 'less:release', 'concat', 'uglify']
